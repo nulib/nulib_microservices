@@ -1,0 +1,11 @@
+{
+  "gemName" : "nulib_microservices",
+  "moduleName" : "NulibMicroservices",
+  "gemVersion" : "0.0.1",
+  "gemLicense" : "Apache2",
+  "gemRequiredRubyVersion" : ">= 2.3",
+  "gemHomepage" : "http://github.com/nulib/microservices",
+  "gemSummary" : "A ruby wrapper for NULIB Repo Microservices on Amazon AWS",
+  "gemAuthor" : "Michael B. Klein",
+  "gemAuthorEmail" : "michael.klein@northwestern.edu"
+}

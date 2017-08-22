@@ -1,0 +1,33 @@
+---
+swagger: "2.0"
+info:
+  version: "2017-08-22T19:04:01Z"
+  title: "RepoMicroservices"
+host: "hmv2sqwzhf.execute-api.us-east-1.amazonaws.com"
+basePath: "/staging"
+schemes:
+- "https"
+paths:
+  /mintId:
+    get:
+      produces:
+      - "application/json"
+      responses:
+        201:
+          description: "201 response"
+          schema:
+            $ref: "#/definitions/MintIdResponse"
+      security:
+      - api_key: []
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "x-api-key"
+    in: "header"
+definitions:
+  MintIdResponse:
+    type: "object"
+    properties:
+      id:
+        type: "string"
+    title: "MintIdResponse Schema"
